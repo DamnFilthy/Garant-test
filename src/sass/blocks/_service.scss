@@ -1,0 +1,75 @@
+.service {
+    padding: 0px 26px 57px 15px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+
+        &-title {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        &-subtitle {
+            padding-top: 9px;
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+
+    &__link {
+        font-size: 15px;
+        line-height: 18px;
+
+        a {
+            color: $main-green;
+        }
+    }
+
+    &__extracharge {
+        padding: 20px 30px 37px 0px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        line-height: 19px;
+
+        &-count {
+            @include before_count;
+        }
+    }
+
+    &__sum {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: 30px;
+        padding-bottom: 10px;
+
+        &-count {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        &-delete {
+            cursor: pointer;
+        }
+    }
+
+    &-divider {
+        width: 279px;
+        height: 0px;
+        border: 1px solid $main-green;
+
+    }
+
+    &__item {
+        padding: 30px 10px 10px 0px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        line-height: 18px;
+        @include before_item-bottom
+    }
+}

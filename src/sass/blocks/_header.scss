@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $main-green;
+    padding: 19px 16px;
+
+    &__title {
+        font-size: 22px;
+        line-height: 26px;
+        color: $main-white;
+    }
+}

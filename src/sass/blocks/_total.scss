@@ -1,0 +1,45 @@
+.total {
+    padding: 0px 26px 57px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__descr {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    &__price {
+        color: $main-green;
+        padding-top: 15px;
+        font-weight: bold;
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    &__btn {
+        width: 291px;
+        height: 40px;
+        background-color: $main-green;
+        margin-top: 30px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10px;
+        color: $main-white;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__link {
+        padding-top: 20px;
+
+        a {
+            font-size: 15px;
+            line-height: 18px;
+            color: $main-green;
+        }
+
+    }
+}

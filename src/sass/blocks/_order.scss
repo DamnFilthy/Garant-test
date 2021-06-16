@@ -1,0 +1,28 @@
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 16px 18px 16px;
+
+    &__title {
+        color: $main-green;
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    &__steps {
+        display: flex;
+        padding-top: 23px;
+
+        .divider {
+            width: 65px;
+            height: 2px;
+            margin-right: 9.5px;
+            background-color: #E5E5E5;
+        }
+    }
+
+    .active-step {
+        background-color: $main-green;
+    }
+}

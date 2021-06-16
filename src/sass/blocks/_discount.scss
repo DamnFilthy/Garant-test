@@ -1,0 +1,36 @@
+.discount {
+    padding: 0px 26px 57px 15px;
+
+    &__sum {
+        padding: 0px 30px 37px 0px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        line-height: 19px;
+
+        &-descr {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        &-count {
+            @include before_count;
+        }
+    }
+
+    &-add {
+        a {
+            display: flex;
+            align-items: center;
+            margin-right: 6px;
+            font-size: 15px;
+            line-height: 18px;
+            color: $main-green;
+
+            img {
+                margin-left: 6px;
+            }
+        }
+    }
+}
